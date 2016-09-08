@@ -1,9 +1,5 @@
-// extern crate futures;
 #[macro_use]
 extern crate tarpc;
-
-// use tarpc::util::Never;
-// use tarpc::sync::Connect;
 
 service! {
     rpc has_full(name: String) -> bool;
